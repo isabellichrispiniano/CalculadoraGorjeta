@@ -1,0 +1,41 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+h1{
+    text-align: center;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    background-color: #EF9595;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+.converter{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    background-color: #A8DF8E;
+    border-radius: 7px;
+    padding: 10px;
+    width: 50%px;
+
+}
+.number{
+    border-radius: 5px;
+    padding: 5px;
+    margin: 10px;
+}
+#qual{
+    border-radius: 5px;
+    padding: 5px;
+    margin: 10px;
+}
+p{
+    padding: 10px;
+    font-size: 20px;
+}
